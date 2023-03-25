@@ -1,6 +1,8 @@
+import Footer from "../../Components/Footer";
 import Navbar from "../../Components/Navbar";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
+import SectionFaqs from "./SectionFaqs";
 
 export default function About() {
     return (
@@ -11,6 +13,8 @@ export default function About() {
             </div>
             <Section1 />
             <Section2 />
+            <SectionFaqs />
+            <Footer />
         </div>
     )
 }

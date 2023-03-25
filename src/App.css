@@ -206,4 +206,40 @@ text-decoration: none;
     padding: 30px 34px;
     color: var(--dimGray);
   }
+  /* About , Section Faq */
+  .cont-section-faq {
+    text-align: center;
+    font-family: "space mono";
+    margin: 80px 0px;
+  }
+  .section-faq-title {
+    padding-top: 10px;
+    color: var(--darkNavy);
+    font-size: 50px;
+  }
+  .section-faq-elm-title {
+    color: var(--darkNavy);
+    padding: 30px 0px;
+  }
+  .section-faq-elm-question {
+    background-color: var(--lightGray);
+    margin: 20px 30px;
+  }
+  .section-faq-elm-question-elment-title {
+    color: var(--darkNavy);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px 0px;
+  }
+  .section-faq-elm-question-elment-title img {
+    width: 16px;
+    height: 16px;
+  }
+  .section-faq-elm-question-elment-text {
+    color: #495567;
+    padding: 24px;
+    text-align: left;
+  }
 }
