@@ -81,7 +81,7 @@ text-decoration: none;
     padding-top: 14px;
   }
   
-  /* Header */ 
+  /* Header Home */ 
   .cont-header {
     background: url(./assets/images/Home/header-bg.png);
     height: 650px;
@@ -99,7 +99,7 @@ text-decoration: none;
     padding: 24px 32px 0px 32px;
     font-family: "space mono";
   }
-  /* Section one */
+  /* Section one Home*/
   .cont-section1 {
     text-align: center;
     padding: 100px 0px;
@@ -117,7 +117,7 @@ text-decoration: none;
     padding: 0 28px;
     color: var(--dimGray);
   }
-  /* Section two */
+  /* Section two  Home*/
   .cont-section2 {
     text-align: center;
     padding: 100px 0;
@@ -163,5 +163,47 @@ text-decoration: none;
   }
   .footer-social img {
     padding: 0 20px;
+  }
+  /* About page */
+  .cont-about-header {
+    background: url(./assets/images/About/header-about.jpg);
+    height: 160px;
+    text-align: center;
+  }
+  .cont-about-title {
+    color: #fff;
+    font-family: "space mono";
+    padding-top: 50px;
+  }
+  /* About , Section1 */
+  .cont-section1-about {
+    text-align: center;
+    margin: 72px 0px;
+  }
+  .cont-section1-about-elm {
+    padding-bottom: 100px;
+    font-family: "space mono";
+  }
+  .cont-section1-about-title {
+    padding: 20px 20px;
+    color: var(--darkNavy);
+  }
+  .cont-section1-about-text {
+    padding: 10px 34px;
+    color: var(--dimGray);
+  }
+/* About , Section2 */
+  .cont-section2-about{
+    text-align: center;
+    font-family: "space mono";
+  }
+  .section2-title {
+    color: var(--darkNavy);
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+  .cont-section2-about-text {
+    padding: 30px 34px;
+    color: var(--dimGray);
   }
 }
