@@ -242,6 +242,20 @@ text-decoration: none;
     padding: 24px;
     text-align: left;
   }
+  /* Careers page */
+  .cont-careers {
+    text-align: center;
+    font-family: "space mono";
+  }
+  .cont-careers-section1 {
+    margin-top: 80px;
+  }
+  .cont-careers-header {
+    background: url(./assets/images/Careers/header-bg.jpg);
+    height: 160px;
+    text-align: center;
+  }
+
   /* Location page */
   .cont-location-header {
     background: url(./assets/images/Locations/header-bg.png);
@@ -265,11 +279,11 @@ text-decoration: none;
   .btn-location-text {
     font-size: 24px;
   }
-  .cont-location-elm2-title {
+  .cont-location-elm2-title , .cont-careers-elm-title {
     color: var(--darkNavy);
     margin: 40px ;
   }
-  .cont-location-elm2-text {
+  .cont-location-elm2-text , .cont-careers-elm-text {
     color: var(--dimGray);
     margin: 24px;
   }
