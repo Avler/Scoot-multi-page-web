@@ -170,7 +170,7 @@ text-decoration: none;
     height: 160px;
     text-align: center;
   }
-  .cont-about-title {
+  .cont-about-title , .cont-location-title , .cont-careers-title {
     color: #fff;
     font-family: "space mono";
     padding-top: 50px;
@@ -241,5 +241,48 @@ text-decoration: none;
     color: #495567;
     padding: 24px;
     text-align: left;
+  }
+  /* Location page */
+  .cont-location-header {
+    background: url(./assets/images/Locations/header-bg.png);
+    height: 160px;
+    text-align: center;
+  }
+  .cont-location-section1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: "space mono";
+  }
+  .btn-location {
+    background-color: var(--lightYellow);
+    width: 310px;
+    height: 70px;
+    color: var(--darkNavy);
+    margin: 16px 0px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-location-text {
+    font-size: 24px;
+  }
+  .cont-location-elm2-title {
+    color: var(--darkNavy);
+    margin: 40px ;
+  }
+  .cont-location-elm2-text {
+    color: var(--dimGray);
+    margin: 24px;
+  }
+  .btn-location-msg {
+    width: 180px;
+    height: 50px;
+    background-color: var(--yellow);
+    border: none;
+    color: #fff;
+    font-family: "space mono";
+    font-size: 16px;
+    margin-top: 34px;
+    cursor: pointer;
+    margin-bottom: 50px;
   }
 }

@@ -20,8 +20,8 @@ export default function Navbar() {
                 <div className="nav">
                 <ul className="navbar">
                     <Link to="/About"><li className="navbar-elem">About</li></Link>
-                    <Link to="/About"><li className="navbar-elem">Location</li></Link>
-                    <Link to="/About"><li className="navbar-elem">Careers</li></Link>
+                    <Link to="/Location"><li className="navbar-elem">Location</li></Link>
+                    <Link to="/Careers"><li className="navbar-elem">Careers</li></Link>
                 </ul>
                 <button className="btn">Get Scootin</button>
             </div>
