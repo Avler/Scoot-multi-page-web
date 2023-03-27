@@ -464,4 +464,92 @@ text-decoration: none;
     margin: 0px 10px;
   }
   /*  Page About */
+  .cont-about {
+    font-family: "space mono";
+  }
+  .cont-about-header {
+    background: url(/src/assets/images/About/header-about-tablet.png);
+    height: 200px;
+    text-align: center;
+  }
+  .cont-about-title {
+    color: #fff;
+    font-size: 50px;
+    padding-top: 60px;
+  }
+  .cont-section1-about {
+   text-align: center;
+   margin-top: 140px;
+  }
+  .cont-section1-about-elm {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .cont-section1-about-elm img {
+    width: 445px;
+  }
+  .cont-section1-about-title {
+    font-size: 50px;
+    color: var(--darkNavy);
+    font-weight: 700;
+    padding: 0px 70px;
+  }
+  .cont-section1-about-text {
+    color: var(--dimGray);
+    padding: 0px 100px;
+  }
+  .cont-section2-about {
+    text-align: center;
+  }
+  .section2-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--darkNavy);
+    margin: 50px;
+  }
+  .cont-section2-about-text {
+    color: var(--dimGray);
+    padding: 50px 100px;
+  }
+  /* Section Faq */
+  .cont-section-faq {
+    text-align: center;
+    font-family: "space mono";
+    margin: 80px 0px;
+  }
+  .section-faq-title {
+    padding-top: 10px;
+    color: var(--darkNavy);
+    font-size: 50px;
+  }
+  .section-faq-elm-title {
+    color: var(--darkNavy);
+    padding: 30px 0px;
+  }
+  .section-faq-elm-question {
+    background-color: var(--lightGray);
+    margin: 20px 30px;
+  }
+  .section-faq-elm-question-elment-title {
+    color: var(--darkNavy);
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px 0px;
+  }
+  .section-faq-elm-question-elment-title img {
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .section-faq-elm-question-elment-text {
+    color: #495567;
+    padding: 24px;
+    text-align: left;
+  }
 }
