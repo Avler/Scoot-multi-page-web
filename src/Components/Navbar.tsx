@@ -26,7 +26,16 @@ export default function Navbar() {
                 <button className="btn">Get Scootin</button>
             </div>
             :
-            null
+            <div className="nav-fordesktop">
+                <ul className="navbar">
+                    <Link to="/"><p className="navbar-text-desktop">scoot</p> </Link> 
+                    <Link to="/About"><li className="navbar-elem">About</li></Link>
+                    <Link to="/Location"><li className="navbar-elem">Location</li></Link>
+                    <Link to="/Careers"><li className="navbar-elem">Careers</li></Link>
+                    <button className="btn">Get Scootin</button>
+                </ul>
+                
+            </div>
            } 
         </div>
     )
