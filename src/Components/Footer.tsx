@@ -6,8 +6,8 @@ export default function Footer () {
             <div className="cont-footer-1">
                 <h2 className="footer-title">Sign up and Scoot off today</h2>
                 <div className="footer-elm">
-                    <img src="src\assets\images\appstore.png"/>
-                    <img src="src\assets\images\googleplay.png"/>
+                    <img src="src\assets\images\appstore.png" className="footer-elm-img"/>
+                    <img src="src\assets\images\googleplay.png" className="footer-elm-img2"/>
                 </div>
             </div>
             <div className="cont-footer-2">
