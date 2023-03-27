@@ -252,11 +252,33 @@ text-decoration: none;
   }
   .cont-careers-section1 {
     margin-top: 80px;
+    margin-bottom: 100px;
   }
   .cont-careers-header {
     background: url(./assets/images/Careers/header-bg.jpg);
     height: 160px;
     text-align: center;
+  }
+  .cont-section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "space mono";
+    margin-bottom: 50px;
+  }
+  .cont-section3-elm {
+    width: 300px;
+    height: 190px;
+    background: var(--lightGray);
+    margin: 20px;
+  }
+  .cont-section3-elm-title {
+    color: var(--darkNavy);
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .cont-section3-elm-text {
+    color: var(--darkNavy);
   }
 
   /* Location page */
@@ -472,7 +494,7 @@ text-decoration: none;
     height: 200px;
     text-align: center;
   }
-  .cont-about-title {
+  .cont-about-title , .cont-location-title {
     color: #fff;
     font-size: 50px;
     padding-top: 60px;
@@ -552,4 +574,99 @@ text-decoration: none;
     padding: 24px;
     text-align: left;
   }
+  /* Location Page */
+  .cont-location {
+    text-align: center;
+    font-family: "space mono";
+  }
+  .cont-location-header {
+    background: url(/src/assets/images/Locations/header-bg-tablet.png);
+    height: 200px;
+  }
+  .cont-location-section1 {
+    text-align: center;
+    margin-top: 70px;
+  }
+  .cont-location-elm1 img {
+    display: block;
+    margin: auto;
+    width: 600px;
+    margin-bottom: 20px;
+  }
+  .btn-location {
+    background-color: var(--lightYellow);
+    width: 310px;
+    height: 70px;
+    color: var(--darkNavy);
+    margin: 20px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-location-text {
+    font-size: 24px;
+  }
+  .cont-location-elm2-title , .cont-careers-elm-title {
+    color: var(--darkNavy);
+    margin: 40px ;
+    font-size: 40px;
+  }
+  .cont-location-elm2-text , .cont-careers-elm-text {
+    color: var(--dimGray);
+    margin: 24px;
+  }
+  .btn-location-msg {
+    width: 180px;
+    height: 50px;
+    background-color: var(--yellow);
+    border: none;
+    color: #fff;
+    font-family: "space mono";
+    font-size: 16px;
+    margin-top: 34px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  /* Careers Page */
+  .cont-careers {
+    font-family: "space mono";
+  }
+  .cont-careers-header {
+    background: url(/src/assets/images/Careers/header-bg-tablet.png);
+    height: 200px;
+    text-align: center;
+  }
+  .cont-careers-title {
+    color: #fff;
+    font-size: 50px;
+    padding-top: 60px;
+  }
+  .cont-careers-section1 {
+   text-align: center;
+   margin-top: 140px;
+  }
+  .cont-section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "space mono";
+    margin-bottom: 50px;
+  }
+  .cont-section3-elm {
+    width: 680px;
+    height: 130px;
+    background: var(--lightGray);
+    margin: 20px;
+    display: flex;
+    justify-content: space-between  ;
+    padding: 0px 50px ;
+  }
+  .cont-section3-elm-title {
+    color: var(--darkNavy);
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .cont-section3-elm-text {
+    color: var(--darkNavy);
+  }
+  
 }
