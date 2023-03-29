@@ -36,7 +36,7 @@ text-decoration: none;
 
 
 /* Phone media */
-@media  (min-width: 0px ) {
+@media  (max-width: 768px ) {
   /*  Navbar */
   .cont-navbar {
     height: 65px;
