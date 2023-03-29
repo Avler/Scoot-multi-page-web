@@ -3,8 +3,7 @@ export default function Section2() {
     return (
         <div className="cont-section2-about-box">
             <h2 className="section2-title">Our values</h2>
-            <div className="cont-section2-about">
-            
+            <div className="section2-careers-box">
             <div className="cont-section2-about-elm">
                 <img src="src\assets\images\About\section2-photo1.png"/>
                 <h2 className="cont-section1-about-title">Our tech</h2>

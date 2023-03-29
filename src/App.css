@@ -169,6 +169,9 @@ text-decoration: none;
   .footer-social img {
     padding: 0 20px;
   }
+  .section-home-arrow {
+    display: none;
+  }
   /* About page */
   .cont-about-header {
     background: url(./assets/images/About/header-about.jpg);
@@ -188,7 +191,7 @@ text-decoration: none;
     text-align: center;
     margin: 72px 0px;
   }
-  .cont-section1-about-elm {
+  .cont-section1-about-elm , .cont-section1-about-elm2 {
     padding-bottom: 100px;
     font-family: "space mono";
   }
@@ -200,6 +203,7 @@ text-decoration: none;
     padding: 10px 34px;
     color: var(--dimGray);
   }
+ 
 /* About , Section2 */
   .cont-section2-about{
     text-align: center;
@@ -213,6 +217,9 @@ text-decoration: none;
   .cont-section2-about-text {
     padding: 30px 34px;
     color: var(--dimGray);
+  }
+  .section2-careers-box {
+  text-align: center;
   }
   /* About , Section Faq */
   .cont-section-faq {
@@ -298,6 +305,9 @@ text-decoration: none;
     text-align: center;
     margin-top: 70px;
     font-family: "space mono";
+  }
+  .cont-location-section1 img {
+    margin: 20px 0px;
   }
   .btn-location {
     background-color: var(--lightYellow);
@@ -406,6 +416,9 @@ text-decoration: none;
     width: 96px;
     height: 96px;
   }
+  .section-home-arrow {
+    display: none;
+  }
   .cont-section1-elm-text {
     margin-right: 50px;
   }
@@ -444,6 +457,9 @@ text-decoration: none;
   }
   .section-text {
     padding: 10px 70px;
+  }
+  .section-faq-elm-question-elment img {
+    cursor: pointer;
   }
   /* Footer */
   .cont-footer {
@@ -503,6 +519,8 @@ text-decoration: none;
     background: url(/src/assets/images/About/header-about-tablet.png);
     height: 200px;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .cont-about-title , .cont-location-title {
     color: #fff;
@@ -513,7 +531,7 @@ text-decoration: none;
    text-align: center;
    margin-top: 140px;
   }
-  .cont-section1-about-elm {
+  .cont-section1-about-elm , .cont-section1-about-elm2{
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -536,6 +554,13 @@ text-decoration: none;
   .cont-section2-about {
     text-align: center;
   }
+ .cont-section1-about-elm2 img {
+  width: 445px;
+  
+}
+.cont-section2-about-box {
+  text-align: center;
+}
   .section2-title {
     font-size: 50px;
     font-weight: 700;
@@ -545,6 +570,18 @@ text-decoration: none;
   .cont-section2-about-text {
     color: var(--dimGray);
     padding: 50px 100px;
+  }
+  .section2-careers-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section2-careers-box img {
+    padding-left: 100px;
+  }
+  .cont-section2-about-text {
+    width: 600px;
   }
   /* Section Faq */
   .cont-section-faq {
@@ -592,6 +629,8 @@ text-decoration: none;
   .cont-location-header {
     background: url(/src/assets/images/Locations/header-bg-tablet.png);
     height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .cont-location-section1 {
     text-align: center;
@@ -602,6 +641,7 @@ text-decoration: none;
     margin: auto;
     width: 600px;
     margin-bottom: 20px;
+
   }
   .btn-location {
     background-color: var(--lightYellow);
@@ -636,6 +676,9 @@ text-decoration: none;
     cursor: pointer;
     margin-bottom: 50px;
   }
+  .cont-section2-about-elm img {
+    padding: 0;
+  }
   /* Careers Page */
   .cont-careers {
     font-family: "space mono";
@@ -644,6 +687,8 @@ text-decoration: none;
     background: url(/src/assets/images/Careers/header-bg-tablet.png);
     height: 200px;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .cont-careers-title {
     color: #fff;
@@ -681,12 +726,19 @@ text-decoration: none;
   
 }
 @media (min-width: 1368px) {
- 
+  .btn {
+    font-size: 22px;
+    width: 250px;
+    height: 60px;
+  }
   .navbar {
     gap: 100px;
   }
   .navbar-elem:hover {
     color: var(--yellow);
+  }
+  .navbar-elem {
+    font-size: 24px;
   }
   .cont-header {
     background: url(./assets/images/Home/header-desktop.jpg);
@@ -699,14 +751,19 @@ text-decoration: none;
   .cont-section1 {
     display: flex;
     text-align: center;
+    justify-content: center;
     
   }
   .cont-section1-elm {
     flex-direction: column;
     gap: 0px;
-    margin-left: 200px;
+    margin: auto;
+    justify-content: center;
+    width: 500px;
   }
- 
+  .cont-header-text{
+    font-size: 20px;
+  }
   .section-text {
     padding: 10px 40px;
   }
@@ -729,6 +786,7 @@ text-decoration: none;
   }
   .section-text {
     width: 500px;
+    font-size: 20px;
   }
   .cont-footer-1 {
     flex-direction: row;
@@ -755,9 +813,14 @@ text-decoration: none;
   .cont-about-header {
     background: url(./assets/images/About/header-desktop.png);
   }
+  .section-home-arrow {
+    display: block;
+  }
   .cont-section1-about {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .cont-section1-about-elm {
     display: flex;
@@ -774,13 +837,32 @@ text-decoration: none;
     text-align:  left;
     margin-left: 100px;
   }
+  .cont-section2-about-text {
+   font-size: 20px;
+  }
   .cont-section2-about-box {
     text-align: center;
     margin-top: 100px;
   }
   .cont-section2-about {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
+    gap: 100px ;
+  }
+  .cont-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont-section2-elm {
+   text-align: center;
+   gap: 50px;
+  }
+  .cont-section2-about-text{
+    width: 500px;
   }
   .section-faq-elm-question-elment {
   width: 500px;
@@ -793,6 +875,123 @@ text-decoration: none;
   }
   .section-faq-elm {
     height: 450px;
+    margin: 300px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+  }
+  .section-faq-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .cont-section1-about-elm2 {
+    flex-direction: row-reverse;
+  }
+  .cont-section1-about-elm2 img {
+    width: 445px;
+  }
+  .section-faq-elm-title {
+    font-size: 50px;
+  }
+  .section-faq-elm-question {
+    width: 1000px;
+  }
+  .section-faq-elm-question-elment-title {
+    width: 900px;
+  }
+  .section-faq-elm-question:hover {
+    background-color: var(--lightYellow);
+  }
+  .section-faq-elm-question-elment-text {
+    width: 900px;
+    font-size: 18px;
+  }
+  .cont-location-header {
+    background: url(/src/assets/images/Locations/header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cont-location-elm1 img {
+    width: 1000px;
+  }
+  .section-faq-elm-question-elment img {
+    width: 25px;
+    height: 25px;
+  }
+  .cont-location-elm1 {
+    margin: 100px 0px;
+  }
+  .cont-location-elm1 button {
     margin-top: 100px;
   }
-}
+  .btn-location:hover {
+    background-color: lightgoldenrodyellow;
+  }
+  .btn-location-msg {
+    font-size: 22px;
+    width: 250px;
+    height: 60px;
+  }
+  .btn-location-msg:hover {
+    color: var(--yellow);
+    background-color: #fff;
+    border: 1px solid var(--yellow);
+  }
+  .cont-location-elm2-text {
+    font-size: 22px;
+    width: 500px;
+  }
+  .cont-location-elm2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cont-careers-header {
+    background: url(/src/assets/images/Careers/header-desktop.png);
+    background-size: cover;
+  }
+  .cont-careers-section1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+  }
+  .cont-careers-section1 img {
+    width: 445px;
+  }
+  .cont-careers-elm-text {
+    width: 500px;
+  }
+  .cont-careers-sectio1-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont-careers-elm-text {
+    font-size: 20px;
+  }
+  .cont-section2-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .section2-careers-box  {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+  }
+  .cont-section3-elm {
+    width: 1200px;
+  }
+  .cont-section3-elm-box {
+    padding-top: 20px;
+  }
+  .cont-section3 {
+    margin-top: 100px;
+  }
+} 
