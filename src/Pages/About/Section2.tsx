@@ -1,8 +1,10 @@
 
 export default function Section2() {
     return (
-        <div className="cont-section2-about">
+        <div className="cont-section2-about-box">
             <h2 className="section2-title">Our values</h2>
+            <div className="cont-section2-about">
+            
             <div className="cont-section2-about-elm">
                 <img src="src\assets\images\About\section2-photo1.png"/>
                 <h2 className="cont-section1-about-title">Our tech</h2>
@@ -19,5 +21,7 @@ export default function Section2() {
                 <p className="cont-section2-about-text">We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.</p>
             </div>
         </div>
+        </div>
+        
     )
 }   

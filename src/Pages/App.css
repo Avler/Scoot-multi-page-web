@@ -175,9 +175,6 @@ text-decoration: none;
     height: 160px;
     text-align: center;
   }
-  .section2-title {
-    text-align: center;
-  }
   .cont-about-title , .cont-location-title , .cont-careers-title {
     color: #fff;
     font-family: "space mono";
@@ -276,13 +273,11 @@ text-decoration: none;
     height: 190px;
     background: var(--lightGray);
     margin: 20px;
-    box-sizing: border-box;
   }
   .cont-section3-elm-title {
     color: var(--darkNavy);
     font-weight: 700;
     padding-top: 20px;
-    font-size: 20px;
   }
   .cont-section3-elm-text {
     color: var(--darkNavy);
@@ -408,9 +403,6 @@ text-decoration: none;
   }
   .cont-section1-elm-text {
     margin-right: 50px;
-  }
-  .section2-title {
-    text-align: center;
   }
   .section-title {
     color: var(--darkNavy);
@@ -680,7 +672,7 @@ text-decoration: none;
   }
   
 }
-@media (min-width: 1368px) {
+@media (min-width: 1280px) {
  
   .navbar {
     gap: 100px;
@@ -720,12 +712,10 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
   .cont-section2-elm img {
     width: 445px;
     margin-left: 50px;
-    
   }
   .section-text {
     width: 500px;
@@ -751,48 +741,5 @@ text-decoration: none;
   }
   .footer-social img {
     cursor: pointer;
-  }
-  .cont-about-header {
-    background: url(./assets/images/About/header-desktop.png);
-  }
-  .cont-section1-about {
-    display: flex;
-    justify-content: center;
-  }
-  .cont-section1-about-elm {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 300px;
-  }
-  .cont-section1-about-text {
-    width: 600px;
-    margin-top: 100px;
-    font-size: 24px;
-  }
-  .cont-section1-about-box {
-    text-align:  left;
-    margin-left: 100px;
-  }
-  .cont-section2-about-box {
-    text-align: center;
-    margin-top: 100px;
-  }
-  .cont-section2-about {
-    display: flex;
-    margin-top: 100px;
-  }
-  .section-faq-elm-question-elment {
-  width: 500px;
-  margin: 30px;
-  text-align: center;  
-  }
-  .section-faq-elm-question {
-    width: 600px;
-    display:inline-block;
-  }
-  .section-faq-elm {
-    height: 450px;
-    margin-top: 100px;
   }
 }
