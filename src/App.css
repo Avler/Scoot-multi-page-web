@@ -964,12 +964,7 @@ text-decoration: none;
   .cont-careers-elm-text {
     width: 500px;
   }
-  .cont-careers-sectio1-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
   .cont-careers-elm-text {
     font-size: 20px;
   }
@@ -978,7 +973,7 @@ text-decoration: none;
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .section2-careers-box  {
     display: flex;
     flex-direction: row;
