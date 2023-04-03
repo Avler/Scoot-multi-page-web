@@ -1,9 +1,10 @@
+import photo1 from "../../assets/images/About/section1-photo1.png"
 
 export default function Section1() {
     return(
         <div className="cont-section1-about">
             <div className="cont-section1-about-elm" >
-                <img src="src\assets\images\About\section1-photo1.png"/>
+                <img src={photo1} alt="error"/>
                 <div  className="cont-section1-about-box">
                     <h2 className="cont-section1-about-title">Mobility for the digital era</h2>
                     <p className="cont-section1-about-text">Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips.</p>
