@@ -16,7 +16,7 @@ export default function Section1() {
             </div>
             <div className="cont-section1-about-elm2" >
                 
-                <img src={photo2}/>
+                <img src={photo2} alt="error"/>
                 <div className="cont-section1-about-box">
                     <h2 className="cont-section1-about-title">Better urban living</h2>
                     <p className="cont-section1-about-text">We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride.</p>
