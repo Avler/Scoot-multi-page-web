@@ -1,5 +1,7 @@
 import {Link} from "react-router-dom"
 import {useState} from "react"
+import menuClose from "../assets/images/menu-close.svg"
+import menu from "../assets/images/menu.svg"
 
 export default function Navbar() {
 
@@ -11,9 +13,9 @@ export default function Navbar() {
     return (
         <div className="cont-navbar">
           {nav ?
-            <img src="src\assets\images\menu-close.svg" onClick={navBarOn}></img> 
+            <img src={menuClose} onClick={navBarOn}></img> 
             :
-            <img src="src\assets\images\menu.svg" onClick={navBarOn}></img>   
+            <img src={menu} onClick={navBarOn}></img>   
         } 
            <Link to="/"><p className="navbar-text">scoot</p> </Link> 
            {nav ?

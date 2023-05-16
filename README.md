@@ -1,7 +1,13 @@
 # Scoot-multi-page-web
 
-Hi this in project i focus on making resposive web for mobile , tablet , and Pc
+Hi this in project i focus on making resposive web for mobile , tablet , and Desktop
 
-I use React  and Css here is link to yt how does it look like 
+# Tech
+I use Technology like :
+- Mobile First
+- Responsive Design
+- React   
+- Css 
+- Typescript
 
-https://www.youtube.com/watch?v=oeJJFwhlGrI&ab_channel=Avler
+

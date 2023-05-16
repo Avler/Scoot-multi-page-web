@@ -1,9 +1,10 @@
+import sectionMap from "../../assets/images/Locations/section1-map.png"
 
 export default function Section1() {
     return(
         <div className="cont-location-section1" >
             <div className="cont-location-elm1">
-                <img src="src\assets\images\Locations\section1-map.png"/>
+                <img src={sectionMap}/>
                 <button className="btn-location"><span className="btn-location-text">New York</span></button>
                 <button className="btn-location"><span className="btn-location-text">London</span></button>
                 <button className="btn-location"><span className="btn-location-text">Jakarta</span></button>
